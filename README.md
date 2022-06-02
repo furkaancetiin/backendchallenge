@@ -1,7 +1,7 @@
 
 # backendchallenge
 
-## Table of contents
+## Başlıklar
 * [Genel Bilgi](#genel-bilgi)
 * [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 * [Kullanım](#kullanım)
