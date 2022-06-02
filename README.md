@@ -5,11 +5,7 @@
 * [Genel Bilgi](#genel-bilgi)
 * [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 * [Kullanım](#kullanım)
-* [Pages](#pages)
-* [Technologies Used](#technologies-used)
-* [Associated Project](#associated-Project)
-* [Contributions](#contributions)
-* [Contact](#contact)
+* [İletişim](#iletişim)
 
 ## Genel Bilgi
 backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca proje içinde REST API yapısı da mevcuttur.  
@@ -139,43 +135,29 @@ Formumuzu bu şekilde sahte bilgiler ile doldurup "Ekle" butonuna bastıktan son
 
 <img src="https://i.hizliresim.com/26p90oj.PNG?width=1329&height=683">
 
+Şimdi ise eklediğimiz bu şirketin bilgilerinde güncellemeye gidelim. Şirket adını "A Yazılım Danışmanlık Şirketi" olarak değiştirdim. Sonraki görselde sonucu görelim.
 
-## Pages
-<p align="center">Main Page</p>
+<img src="https://i.hizliresim.com/3x6yp0i.PNG?width=1329&height=683">
 
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462502684741702/anasayfa.png?width=1329&height=683">
-<p align="center">Car Detail</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462515095687198/cardetail.png?width=1334&height=683">
-<p align="center">Rental Detail</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966645968940449892/unknown.png?width=1329&height=683">
-<p align="center">Cart Summary</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462525971509318/cartsummary.png?width=1329&height=683">
-<p align="center">Payment With Saved Credit Card</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462534880231494/customercreditcard.png?width=1334&height=683">
-<p align="center">Payment With Another Credit Card</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462538969677844/othercreditcard.png?width=1333&height=683">
-<p align="center">Payment Loading Screen</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462545038802975/paymentlloading.png?width=1331&height=683">
-<p align="center">Save Credit Card</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462507021643876/asktosave.png?width=1334&height=683">
-<p align="center">Payment Successful</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462549598036028/paymentsuccesful.png?width=1329&height=683">
-<p align="center">Admin Main Page</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462492534521856/admin-mainpage.png?width=1333&height=683">
-<p align="center">Car Management</p>
-<img src="https://media.discordapp.net/attachments/767148733380689920/966462519151558706/car-management.png?width=1329&height=683">
+Ve görselde görüldüğü gibi sonuç istediğimiz şekilde karşımızda bulunuyor.
 
-**You can view and test other pages by installing the application.**
+<img src="https://i.hizliresim.com/jzfubnm.PNG?width=1329&height=683">
 
+Şimdi ise API kısmında Postman yardımı ile delete ve getbyid operasyonlarını post ve get edelim. Ben şimdi 2 adet daha şirket ekleyeceğim ve API kısmında eklemiş olduğum şirketlere gerekli operasyonları uygulayacağım.
 
-## Associated Project
-The frontend of this project [RecapCarProject](https://github.com/furkaancetiin/RecapCarProject)
-## Contributions
+Görselde görüldüğü üzere adresimizi doğru şekilde yazdığımızda istenen veriye ulaşabildiğimizi görüyoruz. Burada bizi Result yapısı karşılıyor. Yaptığımız işlemlerin detayını burada return etmiş oluyoruz. Bize ekstra success ve message bilgisinin de geldiğini görüyoruz. Bu kısımlar yapılacak hata yönetimlerine göre istenen şekilde projenin backend kısmında set edilebilir.
+<img src="https://i.hizliresim.com/ebfw2jo.PNG?width=1329&height=683">
 
-Thanks to dear  [Engin Demiroğ](https://github.com/engindemirog)  for his contributions.
+Şimdi ise getirmiş olduğum nesneyi Postman aracılığı ile sileceğim. Görüldüğü üzere işlem başarı bilgisi olan success true olarak döndü. Şimdi tüm datayı çekerek id'si 2 olan nesnenin listeden silindiğini göreceğiz.
 
-## Contact
-For your questions:
+<img src="https://i.hizliresim.com/jf607d5.PNG?width=1329&height=683">
+
+Tüm şirketleri listelemem sonucunda id'si 2 olan şirketin görülmediğini yani silme işleminin başarılı olduğunu görüyoruz.
+
+<img src="https://i.hizliresim.com/8osac2z.PNG?width=1329&height=683">
+
+## İletişim
+Sorularınız için:
 furkaanncetiin@gmail.com
 [LinkedIn](https://www.linkedin.com/in/furkaancetiin/)
 
