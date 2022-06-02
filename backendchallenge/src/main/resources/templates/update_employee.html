@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" xlmns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Çalışan Bilgilerini Güncelle</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<div class="container">
+		<div class=row>
+			<div
+				class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+				<h1 class="text-center">Çalışanı Güncelle</h1>
+				<div class="card-body">
+					<form th:action="@{/employees/{id} (id=${employee.id})}" th:object="${employee}"
+						method="POST">
+						<div class=form-group>
+							<label>Ad</label> <input class="form-control"
+								type="text" name="firstName" th:field="*{firstName}"
+								placeholder="Lütfen çalışan adını giriniz.">
+						</div>
+						<div class=form-group>
+							<label>Soyad</label> <input class="form-control"
+								type="text" name="lastName" th:field="*{lastName}"
+								placeholder="Lütfen çalışan soyadını giriniz.">
+						</div>
+						<div class=form-group>
+							<label>Şirket</label> <input class="form-control"
+								type="number" name="name" th:field="*{employee.company.id}"
+								placeholder="Lütfen şirket adını giriniz.">
+						</div>
+						<div class=form-group>
+							<label>Score</label> <input class="form-control"
+								type="number" name="score" th:field="*{score}"
+								placeholder="Please çalışan puanını giriniz.">
+						</div>
+						<div class="box-footer">
+							<button type=submit class="btn btn-success">Güncelle</button>
+						</div>					
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+</body>
+</html>
