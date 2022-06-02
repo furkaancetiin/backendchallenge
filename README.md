@@ -16,7 +16,7 @@ backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca
 `NOTE:` Bu uygulama örnek bir uygulamadır. Bu yüzden, uygulama içinde kullanılan bilgiler gerçeği yansıtmamaktadır.
 
 ## Kullanılan Teknolojiler
-Projede kullanılan teknolojiler [Spring Initializr]([https://www.linkedin.com/in/furkaancetiin/](https://start.spring.io/ )) aracılığı ile oluşturuldu. Kullanmış olduğum teknolojileri aşağıdaki "pom.xml" dosyası içinde görebilirsiniz.  
+Projede kullanılan teknolojiler [Spring Initializr]([https://www.linkedin.com/in/furkaancetiin/](https://start.spring.io/) aracılığı ile oluşturuldu. Kullanmış olduğum teknolojileri aşağıdaki "pom.xml" dosyası içinde görebilirsiniz.  
 
  ```
 <?xml version="1.0" encoding="UTF-8"?>
