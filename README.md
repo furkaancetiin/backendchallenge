@@ -5,7 +5,7 @@
 * [Genel Bilgi](#genel-bilgi)
 * [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 * [Kullanım](#kullanım)
-* [İletişim](#iletişim)
+* [İletişim](#İletişim)
 
 ## Genel Bilgi
 backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca proje içinde REST API yapısı da mevcuttur.  
