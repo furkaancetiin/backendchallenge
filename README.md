@@ -127,7 +127,17 @@ Artık "controller" katmanında "service"de yazmış olduğumuz operasyonları k
 
 <img src="https://i.hizliresim.com/8jg97hu.PNG ?width=1329&height=683">
 
-Controller'da kullanılan annotationlardan biraz bahsetmeye çalıştım. Şimdi artık ister API ile istersek de MVC projemizin UI kısmından gerekli CRUD operasyonlarının başarıyla çalıştığına dair örnek vermek isterim.
+Controller'da kullanılan annotationlardan biraz bahsetmeye çalıştım. Şimdi artık ister API ile istersek de MVC projemizin View kısmından gerekli CRUD operasyonlarının başarıyla çalıştığına dair örnek vermek isterim. Ben ilk olarak hiç değer girmemiş olduğum tablolarıma MVC'nin View kısmında birkaç örnek vermek istiyorum. Tabii bunun için "BackendchallengeApplication.java" classımıza sağ tıklayarak "Run As" dedikten sonra "Java Application"a tıklayarak projeimizi ayağa kaldıralım. Biraz bekledikten sonra adres çubuğuna "http://localhost:8080/companies" yazarak boş olarak görüntülenen Şirketler Sayfasına gidelim.
+
+<img src="https://i.hizliresim.com/dfwtgf8.PNG?width=1329&height=683">
+
+Bu sayfadan "Add Company" butonuna tıklayarak ilk şirketimizi eklemek için formumuzu dolduralım.
+
+<img src="https://i.hizliresim.com/5x317ts.PNG?width=1329&height=683">
+
+Formumuzu bu şekilde sahte bilgiler ile doldurup "Ekle" butonuna bastıktan sonra http://localhost:8080/companies adresine tekrar route olacağız. Ve gelen görüntü şu şekilde olacaktır.
+
+<img src="https://i.hizliresim.com/26p90oj.PNG?width=1329&height=683">
 
 
 ## Pages
