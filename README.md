@@ -97,7 +97,7 @@ Projede kullanılan teknolojiler [Spring Initializr](https://start.spring.io/) a
 
 ## Kullanım
 Paket kurulumu ardından katmanlar görselde görüldüğü gibi oluşturuldu.
-<img src="(https://i.hizliresim.com/9tgwoqk.PNG)?width=1329&height=683">
+<img src="https://i.hizliresim.com/9tgwoqk.PNG?width=1329&height=683">
 
 
 ## Pages
