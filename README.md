@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## Genel Bilgi
-backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca proje içinde REST API yapısı da mevcuttur. 
+backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca proje içinde REST API yapısı da mevcuttur.  
 `NOTE:` Bu uygulama örnek bir uygulamadır. Bu yüzden, uygulama içinde kullanılan bilgiler gerçeği yansıtmamaktadır.
 
 ## Kullanılan Teknolojiler
@@ -111,8 +111,7 @@ Ardından veri erişim işlemleri için "repository" katmanında "CompanyReposit
 <img src="https://i.hizliresim.com/6o4iw77.PNG?width=1329&height=683">
 
 "application.properties" kısmında PostgreSQL tarafında tabloların oluşturulması ve veritabanı bağlantısı için gerekli adres bilgileri implementasyon edildi. Burada önemli ayrıntı spring.jpa.hibernate.ddl-auto=update kısmı projenin devamında "update" olarak tutuldu. Tablolaların oluşum aşamasında ilk başta "create" olarak kayıt edilmişti.
-<img src="https://imgyukle.com/i/VRUJds?width=1329&height=683">
-
+<img src="https://i.hizliresim.com/age656l.PNG?width=1329&height=683">
 
 "service" katmanında gerekli "CompanyService" interfacesi yazıldı ve ardından "CompanyServiceImpl" classına implement edildi. Operasyonların içi gereken şekilde dolduruldu.
 
@@ -120,11 +119,11 @@ Ardından veri erişim işlemleri için "repository" katmanında "CompanyReposit
 
 Artık "controller" katmanında "service"de yazmış olduğumuz operasyonları kullanarak CRUD operasyonlarını başarılı bir şekilde tamamlayabilmek kaldı. Burada bazı annotationlardan bahsetmek isterim.
 
-@Controller : Bu annotation "CompanyController"ın bir controller olduğunu ifade eder. Yani Model classımız ve Thymeleaf yardımı ile oluşturduğumuz .html dosyalarımız arasında hangi endpointin neye göre çalışacağına karar vermesini sağlar.
-@GetMapping: HTTP protokolü ile gelen GET isteklerinin kontrolü için kullanılır.
-@PostMapping: HTTP protokolü ile gelen POST isteklerinin kontrolü için kullanılır. 
-@ModelAttribute: View kısmında formlarımızı kullanabilmek amacıyla kullanırız.
-@PathVariable: Bu annotation ile URL'de bulunan değişkenleri (id gibi) güncelleme,silme vs. gibi metotlarımıza aktararak metodun görevini yapmasını sağlarız.
+@Controller : Bu annotation "CompanyController"ın bir controller olduğunu ifade eder. Yani Model classımız ve Thymeleaf yardımı ile oluşturduğumuz .html dosyalarımız arasında hangi endpointin neye göre çalışacağına karar vermesini sağlar.  
+@GetMapping: HTTP protokolü ile gelen GET isteklerinin kontrolü için kullanılır.  
+@PostMapping: HTTP protokolü ile gelen POST isteklerinin kontrolü için kullanılır.   
+@ModelAttribute: View kısmında formlarımızı kullanabilmek amacıyla kullanırız.  
+@PathVariable: Bu annotation ile URL'de bulunan değişkenleri (id gibi) güncelleme,silme vs. gibi metotlarımıza aktararak metodun görevini yapmasını sağlarız.  
 
 <img src="https://i.hizliresim.com/8jg97hu.PNG ?width=1329&height=683">
 
