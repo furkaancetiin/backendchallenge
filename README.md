@@ -4,8 +4,7 @@
 ## Table of contents
 * [Genel Bilgi](#genel-bilgi)
 * [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
-* [Setup](#setup)
-* [Usage](#usage)
+* [Kullanım](#kullanım)
 * [Pages](#pages)
 * [Technologies Used](#technologies-used)
 * [Associated Project](#associated-Project)
@@ -13,10 +12,11 @@
 * [Contact](#contact)
 
 ## Genel Bilgi
-backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca proje içinde REST API yapısı da mevcuttur.
+backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca proje içinde REST API yapısı da mevcuttur. 
 `NOTE:` Bu uygulama örnek bir uygulamadır. Bu yüzden, uygulama içinde kullanılan bilgiler gerçeği yansıtmamaktadır.
 
-## Technologies Used
+## Kullanılan Teknolojiler
+Projede kullanılan teknolojiler [Spring Initializr]([https://www.linkedin.com/in/furkaancetiin/](https://start.spring.io/ )) aracılığı ile oluşturuldu. Kullanmış olduğum teknolojileri aşağıdaki "pom.xml" dosyası içinde görebilirsiniz.  
 
  ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -95,33 +95,11 @@ backendchallenge projesi Java 17 ile geliştirilmiş bir MVC projesidir. Ayrıca
 
  ```
 
-## Setup
+## Kullanım
+Paket kurulumu ardından katmanlar görselde görüldüğü gibi oluşturuldu.
+<img src="[https://media.discordapp.net/attachments/767148733380689920/966462502684741702/anasayfa.png](https://i.hizliresim.com/9tgwoqk.PNG)?width=1329&height=683">
 
- - Press the `Win+R` " keys on your keyboard. Type `cmd` in the window
-   that opens. The screen that opens should look like this.
-   
-   <img src="https://i.ibb.co/ngw9gzC/cmd.png"  width="600"  height="200">
-	
- - You can download the project by typing 
- ```
-git clone https://github.com/furkaancetiin/RecapCarProjectFrontend
- ```
-  on the line you are on.
- - Open the `RecapCarProjectFrontend` folder in Visual Studio Code.
- - Install NPM packages
-  ```
-npm install
-  ```
-- You can run the project by typing the following command:
-```
-ng serve --open
-```
 
-### `NOTE:` Execute the "Setup" section of [RecapCarProject](https://github.com/furkaancetiin/RecapCarProject) for the project to be running.
-
-## Usage
-
-While the application is running, you can use the project as you wish! In the [Pages](#page) section, you can see the web pages of the application.
 ## Pages
 <p align="center">Main Page</p>
 
