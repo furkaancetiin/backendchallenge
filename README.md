@@ -97,7 +97,16 @@ Projede kullanılan teknolojiler [Spring Initializr](https://start.spring.io/) a
 
 ## Kullanım
 Paket kurulumu ardından katmanlar görselde görüldüğü gibi oluşturuldu.
+`NOTE:` Projeyi ayağı kaldırma ve servisleri kullandığım kısımları size "Company" nesnesi üzerinden göstermeye çalışacağım.
+
+
 <img src="https://i.hizliresim.com/9tgwoqk.PNG?width=1329&height=683">
+
+İlk olarak "entity" katmanında "Company" nesnesi için gerek olan fieldlar yazıldı. Tablo ilişkileri kuruldu. Lombok aracılığı ile "getter" ve "setter"lar otomatik olarak hazır hale getirildi.
+<img src="https://i.hizliresim.com/pc2ycu2.PNG?width=1329&height=683">
+
+Ardından veri erişim işlemleri için "repository" katmanında "CompanyRepository" classı içinde JpaRepository implementasyonu ile tüm ana CRUD işlemleri hazır hale getirildi.
+<img src="https://i.hizliresim.com/6o4iw77.PNG?width=1329&height=683">
 
 
 ## Pages
