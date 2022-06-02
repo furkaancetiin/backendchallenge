@@ -103,10 +103,32 @@ Paket kurulumu ardından katmanlar görselde görüldüğü gibi oluşturuldu.
 <img src="https://i.hizliresim.com/9tgwoqk.PNG?width=1329&height=683">
 
 İlk olarak "entity" katmanında "Company" nesnesi için gerek olan fieldlar yazıldı. Tablo ilişkileri kuruldu. Lombok aracılığı ile "getter" ve "setter"lar otomatik olarak hazır hale getirildi.
+
 <img src="https://i.hizliresim.com/pc2ycu2.PNG?width=1329&height=683">
 
 Ardından veri erişim işlemleri için "repository" katmanında "CompanyRepository" classı içinde JpaRepository implementasyonu ile tüm ana CRUD işlemleri hazır hale getirildi.
+
 <img src="https://i.hizliresim.com/6o4iw77.PNG?width=1329&height=683">
+
+"application.properties" kısmında PostgreSQL tarafında tabloların oluşturulması ve veritabanı bağlantısı için gerekli adres bilgileri implementasyon edildi. Burada önemli ayrıntı spring.jpa.hibernate.ddl-auto=update kısmı projenin devamında "update" olarak tutuldu. Tablolaların oluşum aşamasında ilk başta "create" olarak kayıt edilmişti.
+<img src="https://imgyukle.com/i/VRUJds?width=1329&height=683">
+
+
+"service" katmanında gerekli "CompanyService" interfacesi yazıldı ve ardından "CompanyServiceImpl" classına implement edildi. Operasyonların içi gereken şekilde dolduruldu.
+
+<img src="https://i.hizliresim.com/nte6zge.PNG?width=1329&height=683">
+
+Artık "controller" katmanında "service"de yazmış olduğumuz operasyonları kullanarak CRUD operasyonlarını başarılı bir şekilde tamamlayabilmek kaldı. Burada bazı annotationlardan bahsetmek isterim.
+
+@Controller : Bu annotation "CompanyController"ın bir controller olduğunu ifade eder. Yani Model classımız ve Thymeleaf yardımı ile oluşturduğumuz .html dosyalarımız arasında hangi endpointin neye göre çalışacağına karar vermesini sağlar.
+@GetMapping: HTTP protokolü ile gelen GET isteklerinin kontrolü için kullanılır.
+@PostMapping: HTTP protokolü ile gelen POST isteklerinin kontrolü için kullanılır. 
+@ModelAttribute: View kısmında formlarımızı kullanabilmek amacıyla kullanırız.
+@PathVariable: Bu annotation ile URL'de bulunan değişkenleri (id gibi) güncelleme,silme vs. gibi metotlarımıza aktararak metodun görevini yapmasını sağlarız.
+
+<img src="https://i.hizliresim.com/8jg97hu.PNG ?width=1329&height=683">
+
+Controller'da kullanılan annotationlardan biraz bahsetmeye çalıştım. Şimdi artık ister API ile istersek de MVC projemizin UI kısmından gerekli CRUD operasyonlarının başarıyla çalıştığına dair örnek vermek isterim.
 
 
 ## Pages
