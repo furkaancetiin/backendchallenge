@@ -123,7 +123,7 @@ Artık "controller" katmanında "service"de yazmış olduğumuz operasyonları k
 
 <img src="https://i.hizliresim.com/8jg97hu.PNG ?width=1329&height=683">
 
-Controller'da kullanılan annotationlardan biraz bahsetmeye çalıştım. Şimdi artık ister API ile istersek de MVC projemizin View kısmından gerekli CRUD operasyonlarının başarıyla çalıştığına dair örnek vermek isterim. Ben ilk olarak hiç değer girmemiş olduğum tablolarıma MVC'nin View kısmında birkaç örnek vermek istiyorum. (View kısmında Bootstrap 5.2 versiyonunu kullanarak basit tablo ve form yapılarını kullandım.) Tabii bunun için "BackendchallengeApplication.java" classımıza sağ tıklayarak "Run As" dedikten sonra "Java Application"a tıklayarak projeimizi ayağa kaldıralım. Biraz bekledikten sonra adres çubuğuna "http://localhost:8080/companies" yazarak boş olarak görüntülenen Şirketler Sayfasına gidelim.
+Controller'da kullanılan annotationlardan biraz bahsetmeye çalıştım. Şimdi artık ister API ile istersek de MVC projemizin View kısmından gerekli CRUD operasyonlarının başarıyla çalıştığına dair örnek vermek isterim. Ben ilk olarak hiç değer girmemiş olduğum tablolarıma MVC'nin View kısmında birkaç örnek vermek istiyorum. (View kısmında Bootstrap 5.2 versiyonunu kullanarak basit tablo ve form yapılarını kullandım.) Tabii bunun için "BackendchallengeApplication.java" classımıza sağ tıklayarak "Run As" dedikten sonra "Java Application"a tıklayarak projemizi ayağa kaldıralım. Biraz bekledikten sonra adres çubuğuna "http://localhost:8080/companies" yazarak boş olarak görüntülenen Şirketler Sayfasına gidelim.
 
 <img src="https://i.hizliresim.com/dfwtgf8.PNG?width=1329&height=683">
 
